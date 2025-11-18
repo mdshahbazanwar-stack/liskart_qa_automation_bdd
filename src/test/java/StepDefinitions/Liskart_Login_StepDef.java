@@ -64,7 +64,7 @@ public class Liskart_Login_StepDef extends Base{
     	 TestUtil.Entertext(driver.findElement(By.xpath(prop.getProperty("OTPEntered"))), dataset.get("OTP"));
     	 logger.info("OTP Entered");
     	 Thread.sleep(500);
-    	 driver.findElement(By.xpath(prop.getProperty("Logi"))).click();
+    	 driver.findElement(By.xpath(prop.getProperty("Login"))).click();
     	 logger.info("Login Button Clicked");
     	 
     	 
