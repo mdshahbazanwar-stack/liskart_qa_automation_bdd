@@ -12,6 +12,13 @@ public class JavaScriptUtility extends Base {
 		Thread.sleep(500);
 	}
 	
+	public void Scrollup1() throws InterruptedException {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0, 1000);");
+		Thread.sleep(500);
+	}
+	
+	
 	public void ScrollDown() throws InterruptedException {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0, -200);");
