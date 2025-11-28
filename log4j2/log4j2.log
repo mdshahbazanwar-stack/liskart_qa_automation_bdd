@@ -1331,3 +1331,74 @@
 [INFO ] 2025-11-27 11:39:41 [main] (Login.java:58) - Clicked on send otp
 [INFO ] 2025-11-27 11:39:43 [main] (Login.java:61) - OTP Entered
 [INFO ] 2025-11-27 11:39:43 [main] (Login.java:64) - Login Button Clicked
+[INFO ] 2025-11-27 12:49:29 [main] (Login.java:40) - Clicked to enter phone number
+[INFO ] 2025-11-27 12:49:33 [main] (Login.java:56) - Phone number entered
+[INFO ] 2025-11-27 12:49:33 [main] (Login.java:58) - Clicked on send otp
+[INFO ] 2025-11-27 12:49:34 [main] (Login.java:61) - OTP Entered
+[INFO ] 2025-11-27 12:49:35 [main] (Login.java:64) - Login Button Clicked
+[INFO ] 2025-11-28 07:02:27 [main] (Login.java:40) - Clicked to enter phone number
+[INFO ] 2025-11-28 07:02:33 [main] (Login.java:56) - Phone number entered
+[INFO ] 2025-11-28 07:02:33 [main] (Login.java:58) - Clicked on send otp
+[INFO ] 2025-11-28 07:02:34 [main] (Login.java:61) - OTP Entered
+[INFO ] 2025-11-28 07:02:35 [main] (Login.java:64) - Login Button Clicked
+[INFO ] 2025-11-28 07:06:03 [main] (Login.java:40) - Clicked to enter phone number
+[INFO ] 2025-11-28 07:06:08 [main] (Login.java:56) - Phone number entered
+[INFO ] 2025-11-28 07:06:09 [main] (Login.java:58) - Clicked on send otp
+[INFO ] 2025-11-28 07:06:10 [main] (Login.java:61) - OTP Entered
+[INFO ] 2025-11-28 07:06:10 [main] (Login.java:64) - Login Button Clicked
+[INFO ] 2025-11-28 07:09:33 [main] (Login.java:40) - Clicked to enter phone number
+[INFO ] 2025-11-28 07:09:39 [main] (Login.java:56) - Phone number entered
+[INFO ] 2025-11-28 07:09:39 [main] (Login.java:58) - Clicked on send otp
+[INFO ] 2025-11-28 07:09:40 [main] (Login.java:61) - OTP Entered
+[INFO ] 2025-11-28 07:09:40 [main] (Login.java:64) - Login Button Clicked
+[INFO ] 2025-11-28 07:11:40 [main] (Login.java:40) - Clicked to enter phone number
+[INFO ] 2025-11-28 07:11:46 [main] (Login.java:56) - Phone number entered
+[INFO ] 2025-11-28 07:11:47 [main] (Login.java:58) - Clicked on send otp
+[INFO ] 2025-11-28 07:11:48 [main] (Login.java:61) - OTP Entered
+[INFO ] 2025-11-28 07:11:48 [main] (Login.java:64) - Login Button Clicked
+[INFO ] 2025-11-28 07:12:39 [main] (Liskart_B2B_PlaceOrder_StepDef.java:103) - Clicked on Increment button to increase the amount of product
+[INFO ] 2025-11-28 09:51:28 [main] (Login.java:40) - Clicked to enter phone number
+[INFO ] 2025-11-28 09:51:34 [main] (Login.java:56) - Phone number entered
+[INFO ] 2025-11-28 09:51:34 [main] (Login.java:58) - Clicked on send otp
+[INFO ] 2025-11-28 09:51:35 [main] (Login.java:61) - OTP Entered
+[INFO ] 2025-11-28 09:51:36 [main] (Login.java:64) - Login Button Clicked
+[INFO ] 2025-11-28 09:52:30 [main] (Liskart_B2B_PlaceOrder_StepDef.java:111) - Clicked on Increment button to increase the amount of product
+[INFO ] 2025-11-28 09:52:45 [main] (Liskart_B2B_PlaceOrder_StepDef.java:111) - Clicked on Increment button to increase the amount of product
+[INFO ] 2025-11-28 09:52:45 [main] (Liskart_B2B_PlaceOrder_StepDef.java:122) - Clicked on proceed to checkout
+[INFO ] 2025-11-28 09:52:47 [main] (Liskart_B2B_PlaceOrder_StepDef.java:136) - Clicked on a payment method
+[INFO ] 2025-11-28 09:56:30 [main] (Login.java:40) - Clicked to enter phone number
+[INFO ] 2025-11-28 09:56:36 [main] (Login.java:56) - Phone number entered
+[INFO ] 2025-11-28 09:56:36 [main] (Login.java:58) - Clicked on send otp
+[INFO ] 2025-11-28 09:56:37 [main] (Login.java:61) - OTP Entered
+[INFO ] 2025-11-28 09:56:37 [main] (Login.java:64) - Login Button Clicked
+[INFO ] 2025-11-28 09:57:23 [main] (Liskart_B2B_PlaceOrder_StepDef.java:111) - Clicked on Increment button to increase the amount of product
+[INFO ] 2025-11-28 09:57:38 [main] (Liskart_B2B_PlaceOrder_StepDef.java:111) - Clicked on Increment button to increase the amount of product
+[INFO ] 2025-11-28 09:57:38 [main] (Liskart_B2B_PlaceOrder_StepDef.java:122) - Clicked on proceed to checkout
+[INFO ] 2025-11-28 09:57:41 [main] (Liskart_B2B_PlaceOrder_StepDef.java:136) - Clicked on a payment method
+[INFO ] 2025-11-28 10:00:55 [main] (Login.java:40) - Clicked to enter phone number
+[INFO ] 2025-11-28 10:01:00 [main] (Login.java:56) - Phone number entered
+[INFO ] 2025-11-28 10:01:00 [main] (Login.java:58) - Clicked on send otp
+[INFO ] 2025-11-28 10:01:01 [main] (Login.java:61) - OTP Entered
+[INFO ] 2025-11-28 10:01:02 [main] (Login.java:64) - Login Button Clicked
+[INFO ] 2025-11-28 10:01:48 [main] (Liskart_B2B_PlaceOrder_StepDef.java:111) - Clicked on Increment button to increase the amount of product
+[INFO ] 2025-11-28 10:02:03 [main] (Liskart_B2B_PlaceOrder_StepDef.java:111) - Clicked on Increment button to increase the amount of product
+[INFO ] 2025-11-28 10:02:03 [main] (Liskart_B2B_PlaceOrder_StepDef.java:122) - Clicked on proceed to checkout
+[INFO ] 2025-11-28 10:02:06 [main] (Liskart_B2B_PlaceOrder_StepDef.java:136) - Clicked on a payment method
+[INFO ] 2025-11-28 10:04:39 [main] (Login.java:40) - Clicked to enter phone number
+[INFO ] 2025-11-28 10:04:45 [main] (Login.java:56) - Phone number entered
+[INFO ] 2025-11-28 10:04:45 [main] (Login.java:58) - Clicked on send otp
+[INFO ] 2025-11-28 10:04:46 [main] (Login.java:61) - OTP Entered
+[INFO ] 2025-11-28 10:04:47 [main] (Login.java:64) - Login Button Clicked
+[INFO ] 2025-11-28 10:05:35 [main] (Liskart_B2B_PlaceOrder_StepDef.java:111) - Clicked on Increment button to increase the amount of product
+[INFO ] 2025-11-28 10:05:50 [main] (Liskart_B2B_PlaceOrder_StepDef.java:111) - Clicked on Increment button to increase the amount of product
+[INFO ] 2025-11-28 10:05:50 [main] (Liskart_B2B_PlaceOrder_StepDef.java:122) - Clicked on proceed to checkout
+[INFO ] 2025-11-28 10:05:53 [main] (Liskart_B2B_PlaceOrder_StepDef.java:136) - Clicked on a payment method
+[INFO ] 2025-11-28 10:55:31 [main] (Login.java:40) - Clicked to enter phone number
+[INFO ] 2025-11-28 10:55:38 [main] (Login.java:56) - Phone number entered
+[INFO ] 2025-11-28 10:55:38 [main] (Login.java:58) - Clicked on send otp
+[INFO ] 2025-11-28 10:55:39 [main] (Login.java:61) - OTP Entered
+[INFO ] 2025-11-28 10:55:40 [main] (Login.java:64) - Login Button Clicked
+[INFO ] 2025-11-28 10:56:26 [main] (Liskart_B2B_PlaceOrder_StepDef.java:111) - Clicked on Increment button to increase the amount of product
+[INFO ] 2025-11-28 10:56:41 [main] (Liskart_B2B_PlaceOrder_StepDef.java:111) - Clicked on Increment button to increase the amount of product
+[INFO ] 2025-11-28 10:56:41 [main] (Liskart_B2B_PlaceOrder_StepDef.java:122) - Clicked on proceed to checkout
+[INFO ] 2025-11-28 10:56:44 [main] (Liskart_B2B_PlaceOrder_StepDef.java:136) - Clicked on a payment method

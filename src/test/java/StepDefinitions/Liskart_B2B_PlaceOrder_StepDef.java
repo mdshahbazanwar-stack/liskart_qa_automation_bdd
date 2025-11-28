@@ -80,6 +80,16 @@ public class Liskart_B2B_PlaceOrder_StepDef extends Base {
 
 		productElement.click();
 		Thread.sleep(15000);
+		
+		WebDriverWait Incrwait = new WebDriverWait(driver, Duration.ofSeconds(120));
+
+		WebElement IncrproductElement = Incrwait.until(
+		        ExpectedConditions.elementToBeClickable(
+		                By.xpath(prop.getProperty("IncrementItem"))
+		        )
+		);
+
+		System.out.println(IncrproductElement);
 	}
 	
 	
@@ -90,10 +100,19 @@ public class Liskart_B2B_PlaceOrder_StepDef extends Base {
 		  for (int i = 0; i < 2; i++) {
 		  driver.findElement(By.xpath(prop.getProperty("IncrementItem"))).click();
 		  Thread.sleep(15000); // 500 ms pause, handle InterruptedException }
+		  WebDriverWait Incrwait = new WebDriverWait(driver, Duration.ofSeconds(120));
+
+			WebElement IncrproductElement = Incrwait.until(
+			        ExpectedConditions.elementToBeClickable(
+			                By.xpath(prop.getProperty("IncrementItem"))
+			        )
+			);
+			System.out.println(IncrproductElement);
 		  logger.info("Clicked on Increment button to increase the amount of product");
 		  }
 		 
 		
+		 
 	}
 	
 	@Then("Click on proceed to checkout")
@@ -215,14 +234,16 @@ public class Liskart_B2B_PlaceOrder_StepDef extends Base {
 	public void View_the_product() throws InterruptedException {
 		
 		  
-			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(60));
+			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(120));
 
 			WebElement productElement = wait.until(
 			        ExpectedConditions.elementToBeClickable(
 			                By.xpath(prop.getProperty("VeiwOrder"))
 			        )
 			);
-
+			javaScriptUtility =new JavaScriptUtility();
+			javaScriptUtility.Scrollup();
+			 TimeUnit.SECONDS.sleep(5); // 5 seconds
 			productElement.click();
 		 
 		
