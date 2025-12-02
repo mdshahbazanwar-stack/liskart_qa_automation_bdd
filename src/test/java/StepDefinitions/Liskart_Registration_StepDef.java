@@ -31,9 +31,9 @@ public class Liskart_Registration_StepDef extends Base{
      public void Click_on_register_link() throws InterruptedException
      {
 	 	 driver.get(prop.getProperty("LoginURL"));
-	 	 Thread.sleep(500);
+	 	 Thread.sleep(5000);
     	 driver.findElement(By.xpath(prop.getProperty("RegisterLogin"))).click();  // refer from global properties
-    	 Thread.sleep(500);
+    	 Thread.sleep(5000);
     	 
      }  
  @Then("Enter the Basic details of User")
@@ -57,14 +57,14 @@ public class Liskart_Registration_StepDef extends Base{
 				TestUtil.Entertext(driver.findElement(By.xpath(prop.getProperty("LastName"))), dataset.get("Last_Name"));
 				TestUtil.Entertext(driver.findElement(By.xpath(prop.getProperty("PhoneNumber"))), dataset.get("Phone_Number"));
 				driver.findElement(By.xpath(prop.getProperty("CustomerProfile"))).click();
-				Thread.sleep(500);
+				Thread.sleep(5000);
 				driver.findElement(By.xpath(prop.getProperty("MechanicGarageUser"))).click();
 				//TestUtil.Entertext(driver.findElement(By.xpath(prop.getProperty("CustomerProfile"))), dataset.get("Customer_Profile"));
 				TestUtil.Entertext(driver.findElement(By.xpath(prop.getProperty("CompanyName"))), dataset.get("Company_Name"));
 				TestUtil.Entertext(driver.findElement(By.xpath(prop.getProperty("Email"))), dataset.get("Email"));
 				//TestUtil.Entertext(driver.findElement(By.xpath(prop.getProperty("Gst"))), dataset.get("Gst"));
 				logger.info("Enter basic details of LiskartRegistration");
-				Thread.sleep(500);
+				Thread.sleep(5000);
 				
 				javaScriptUtility =new JavaScriptUtility();
 				javaScriptUtility.Scrollup();
@@ -78,7 +78,7 @@ public class Liskart_Registration_StepDef extends Base{
 				
 				
 				
-				 Thread.sleep(1000);
+				 Thread.sleep(5000);
 				 continue; 
 			}
 			}
@@ -102,13 +102,13 @@ public class Liskart_Registration_StepDef extends Base{
 		{
 				 
 				 javaScriptUtility.ScrollDown();			
-				 Thread.sleep(500);
+				 Thread.sleep(5000);
 				 driver.findElement(By.xpath(prop.getProperty("RegisterOTP"))).click();
 				TestUtil.Entertext(driver.findElement(By.xpath(prop.getProperty("RegisterOTP"))),dataset.get("OTP"));
 				driver.findElement(By.xpath(prop.getProperty("VerifyButton"))).click();
 				
 				
-				Thread.sleep(1000);
+				Thread.sleep(5000);
 				 continue; 
 		}
 				

@@ -60,15 +60,15 @@ public class Liskart_Login_StepDef extends Base{
     	 logger.info("Phone number entered");
     	 driver.findElement(By.xpath(prop.getProperty("SendOtp"))).click();
     	 logger.info("Clicked on send otp");
-    	 Thread.sleep(1000);
+    	 Thread.sleep(5000);
     	 TestUtil.Entertext(driver.findElement(By.xpath(prop.getProperty("OTPEntered"))), dataset.get("OTP"));
     	 logger.info("OTP Entered");
-    	 Thread.sleep(500);
+    	 Thread.sleep(5000);
     	 driver.findElement(By.xpath(prop.getProperty("Login"))).click();
     	 logger.info("Login Button Clicked");
     	 
     	 
-    	 Thread.sleep(1000);
+    	 Thread.sleep(10000);
 			//continue;
 		}
     	 

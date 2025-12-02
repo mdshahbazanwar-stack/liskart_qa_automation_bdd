@@ -81,7 +81,7 @@ public class Liskart_B2B_PlaceOrder_StepDef extends Base {
 		productElement.click();
 		Thread.sleep(15000);
 		
-		WebDriverWait Incrwait = new WebDriverWait(driver, Duration.ofSeconds(120));
+		WebDriverWait Incrwait = new WebDriverWait(driver, Duration.ofSeconds(180));
 
 		WebElement IncrproductElement = Incrwait.until(
 		        ExpectedConditions.elementToBeClickable(
@@ -97,20 +97,32 @@ public class Liskart_B2B_PlaceOrder_StepDef extends Base {
 	@Then("Click on Incement button to increase the amount of product")
 	public void Click_on_Incement_button_to_increase_the_amount_of_product() throws InterruptedException {
 		
-		  for (int i = 0; i < 2; i++) {
-		  driver.findElement(By.xpath(prop.getProperty("IncrementItem"))).click();
+		
+		  for (int i = 0; i <2; i++) { //
+		  driver.findElement(By.xpath(prop.getProperty("IncrementItem"))).click(); //
 		  Thread.sleep(15000); // 500 ms pause, handle InterruptedException }
-		  WebDriverWait Incrwait = new WebDriverWait(driver, Duration.ofSeconds(120));
-
-			WebElement IncrproductElement = Incrwait.until(
-			        ExpectedConditions.elementToBeClickable(
-			                By.xpath(prop.getProperty("IncrementItem"))
-			        )
-			);
-			System.out.println(IncrproductElement);
+			/*
+			 * WebDriverWait Incrwait = new WebDriverWait(driver, Duration.ofSeconds(20));
+			 * 
+			 * WebElement IncrproductElement = Incrwait.until(
+			 * ExpectedConditions.elementToBeClickable(
+			 * By.xpath(prop.getProperty("IncrementItem")) ) ); IncrproductElement.click();
+			 */
 		  logger.info("Clicked on Increment button to increase the amount of product");
 		  }
 		 
+		/*
+		 * for (int i = 0; i < 3; i++) {
+		 * 
+		 * By incrementBtn = By.xpath(prop.getProperty("IncrementItem"));
+		 * 
+		 * WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(120));
+		 * 
+		 * wait.until(ExpectedConditions.elementToBeClickable(incrementBtn)).click();
+		 * logger.info("Clicked on Increment button to increase the amount of product");
+		 * 
+		 * }
+		 */
 		
 		 
 	}
@@ -118,11 +130,24 @@ public class Liskart_B2B_PlaceOrder_StepDef extends Base {
 	@Then("Click on proceed to checkout")
 	public void Click_on_proceed_to_checkout() throws InterruptedException {
 		
-		  driver.findElement(By.xpath(prop.getProperty("ProceedToCheckout"))).click();
-		  logger.info("Clicked on proceed to checkout"); 
-		  Thread.sleep(2000);
+		/*
+		 * driver.findElement(By.xpath(prop.getProperty("ProceedToCheckout"))).click();
+		 * logger.info("Clicked on proceed to checkout"); Thread.sleep(5000);
+		 */
 		  
-		 
+		  
+		  WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(120));
+
+			WebElement productElement = wait.until(
+			        ExpectedConditions.elementToBeClickable(
+			                By.xpath(prop.getProperty("ProceedToCheckout"))
+			        )
+			);
+
+			productElement.click();
+			 logger.info("Clicked on proceed to checkout"); 
+		  
+			 Thread.sleep(5000);
 		
 	}
 	
@@ -134,7 +159,7 @@ public class Liskart_B2B_PlaceOrder_StepDef extends Base {
 		
 		  driver.findElement(By.xpath(prop.getProperty("JioPayment"))).click();
 		  logger.info("Clicked on a payment method"); 
-		  TimeUnit.SECONDS.sleep(5); // 5 seconds
+		  TimeUnit.SECONDS.sleep(10); // 10 seconds
 		 
 		
 	}
@@ -148,7 +173,7 @@ public class Liskart_B2B_PlaceOrder_StepDef extends Base {
 		 * logger.info("clicked on Place order"); Thread.sleep(2000);
 		 */
 		  
-			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(60));
+			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(120));
 
 			WebElement productElement = wait.until(
 			        ExpectedConditions.elementToBeClickable(
@@ -166,7 +191,7 @@ public class Liskart_B2B_PlaceOrder_StepDef extends Base {
 	public void Select_how_do_you_pay() throws InterruptedException {
 		
 		  
-			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(60));
+			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(120));
 
 			WebElement productElement = wait.until(
 			        ExpectedConditions.elementToBeClickable(
@@ -183,7 +208,7 @@ public class Liskart_B2B_PlaceOrder_StepDef extends Base {
 	public void Select_a_bank_to_do_your_payment() throws InterruptedException {
 		
 		  
-			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(60));
+			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(120));
 
 			WebElement productElement = wait.until(
 			        ExpectedConditions.elementToBeClickable(
@@ -200,7 +225,7 @@ public class Liskart_B2B_PlaceOrder_StepDef extends Base {
 	public void Click_on_final_pay_button_to_pay() throws InterruptedException {
 		
 		  
-			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(60));
+			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(120));
 
 			WebElement productElement = wait.until(
 			        ExpectedConditions.elementToBeClickable(
@@ -217,7 +242,7 @@ public class Liskart_B2B_PlaceOrder_StepDef extends Base {
 	public void Click_on_success() throws InterruptedException {
 		
 		  
-			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(60));
+			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(120));
 
 			WebElement productElement = wait.until(
 			        ExpectedConditions.elementToBeClickable(
@@ -234,7 +259,7 @@ public class Liskart_B2B_PlaceOrder_StepDef extends Base {
 	public void View_the_product() throws InterruptedException {
 		
 		  
-			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(120));
+			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(180));
 
 			WebElement productElement = wait.until(
 			        ExpectedConditions.elementToBeClickable(

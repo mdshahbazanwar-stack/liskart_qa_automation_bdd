@@ -68,6 +68,7 @@ public class Liskart_Seller_Registration_StepDef extends Base {
 				
 				  javaScriptUtility =new JavaScriptUtility(); 
 				  javaScriptUtility.Scrollup();
+				  Thread.sleep(5000);
 				 
 				  driver.findElement(By.xpath(prop.getProperty("FinalRegister"))).click();
 				/*
