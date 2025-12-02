@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Liskart Automation Report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Dec 02, 2025 07:47:44 AM</span></a>
+<a href="#"><span class="badge badge-primary">Dec 02, 2025 12:45:43 PM</span></a>
 </li>
 </ul>
 </div>
@@ -84,7 +84,7 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
 <ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" href="#">@Liskart_B2B_PlaceOrder</a>
+<a class="dropdown-item" href="#">@Liskart_Seller_ProductListing</a>
 </ul>
 </li>
 </ul>
@@ -97,7 +97,7 @@
           <div class="test-detail">
             <p class="name">Place An Order</p>
             <p class="text-sm">
-              <span>7:47:46 AM</span> / <span>00:03:53:675</span>
+              <span>12:45:45 PM</span> / <span>00:01:06:515</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -106,9 +106,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">Place An Order</h5>
-<span class='badge badge-success'>12.02.2025 7:47:46 AM</span>
-<span class='badge badge-danger'>12.02.2025 7:51:40 AM</span>
-<span class='badge badge-default'>00:03:53:675</span>
+<span class='badge badge-success'>12.02.2025 12:45:45 PM</span>
+<span class='badge badge-danger'>12.02.2025 12:46:51 PM</span>
+<span class='badge badge-default'>00:01:06:515</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -120,80 +120,100 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Place An Order</div>
+        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Seller Product Listing</div>
       </div>
     </div>
         <div class="">
           <div class="card-body">
-              <div class="step pass-bg" title="StepDefinitions.Liskart_B2B_PlaceOrder_StepDef.login_to_liskart()">
-                <span>Given Login to Liskart</span>
+              <div class="step pass-bg" title="StepDefinitions.Liskart_Seller_Login_StepDef.click_on_seller_login_link()">
+                <span>Given click on seller Login Link</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="StepDefinitions.Liskart_B2B_PlaceOrder_StepDef.find_the_product()">
-                <span>Then Find the Product</span>
+              <div class="step pass-bg" title="StepDefinitions.Liskart_Seller_Login_StepDef.click_on_seller_phone_text_box()">
+                <span>Then click on seller Phone Text Box</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="StepDefinitions.Liskart_B2B_PlaceOrder_StepDef.Click_on_buy_now()">
-                <span>And Click on buy now</span>
+              <div class="step pass-bg" title="StepDefinitions.Liskart_Seller_Login_StepDef.enter_seller_phone_number()">
+                <span>Then Enter seller Phone Number</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="StepDefinitions.Liskart_B2B_PlaceOrder_StepDef.Click_on_Incement_button_to_increase_the_amount_of_product()">
-                <span>Then Click on Incement button to increase the amount of product</span>
+              <div class="step pass-bg" title="StepDefinitions.Liskart_Seller_ProductListing_StepDef.click_on_product_list()">
+                <span>And Click on product list</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="StepDefinitions.Liskart_B2B_PlaceOrder_StepDef.Click_on_proceed_to_checkout()">
-                <span>Then Click on proceed to checkout</span>
+              <div class="step fail-bg" title="StepDefinitions.Liskart_Seller_ProductListing_StepDef.enter_product_name_and_submit()">
+                <span>Then Enter Product name and submit</span>
       <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="StepDefinitions.Liskart_B2B_PlaceOrder_StepDef.Select_a_payment_method()">
-                <span>Then Select a payment method</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="StepDefinitions.Liskart_B2B_PlaceOrder_StepDef.Place_the_order()">
-                <span>And Place the order</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="StepDefinitions.Liskart_B2B_PlaceOrder_StepDef.Select_how_do_you_pay()">
-                <span>Then Select how do you pay</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="StepDefinitions.Liskart_B2B_PlaceOrder_StepDef.Select_a_bank_to_do_your_payment()">
-                <span>Then Select a bank to do your payment</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="StepDefinitions.Liskart_B2B_PlaceOrder_StepDef.Click_on_final_pay_button_to_pay()">
-                <span>Then Click on final pay button to pay</span>
-      <div>
-      </div>
-              </div>
-              <div class="step fail-bg" title="StepDefinitions.Liskart_B2B_PlaceOrder_StepDef.Click_on_success()">
-                <span>And Click on success</span>
-      <div>
-        <textarea disabled class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[@class="success"] (tried for 120 second(s) with 500 milliseconds interval)
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=142.0.7444.176)
 Build info: version: '4.16.1', revision: '9b4c83354e'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\SHAHBA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52743}, goog:processID: 22992, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52743/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: fa2300031f47a652f6b6514a7c8c9f86
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
-	at StepDefinitions.Liskart_B2B_PlaceOrder_StepDef.Click_on_success(Liskart_B2B_PlaceOrder_StepDef.java:247)
-	at ✽.Click on success(classpath:features/TC005_LiskartB2BPlaceOrder.feature:21)
+Command: [1b1549ff7ce52cfb7cb7ef423a2e28a2, findElement {using=id, value=productNameGroup}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\SHAHBA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61935}, goog:processID: 35964, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61935/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1b1549ff7ce52cfb7cb7ef423a2e28a2
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:204)
+	at StepDefinitions.Liskart_Seller_ProductListing_StepDef.enter_product_name_and_submit(Liskart_Seller_ProductListing_StepDef.java:34)
+	at ✽.Enter Product name and submit(classpath:features/TC006_LiskartSellerProductListing.feature:15)
 </textarea>
       
       </div>
               </div>
-              <div class="step skip-bg" title="StepDefinitions.Liskart_B2B_PlaceOrder_StepDef.View_the_product()">
-                <span>Then View the product</span>
+              <div class="step skip-bg" title="StepDefinitions.Liskart_Seller_ProductListing_StepDef.click_on_update_inventory()">
+                <span>Then Click on update Inventory</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefinitions.Liskart_Seller_ProductListing_StepDef.enter_new_quantity_and_update()">
+                <span>Then Enter new quantity and update</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefinitions.Liskart_Seller_ProductListing_StepDef.click_on_reset_button()">
+                <span>And Click on reset button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefinitions.Liskart_Seller_ProductListing_StepDef.enter_the_product_sku_and_submit()">
+                <span>Then Enter the product SKU and submit</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefinitions.Liskart_Seller_ProductListing_StepDef.click_on_update_inventory()">
+                <span>Then Click on update Inventory</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefinitions.Liskart_Seller_ProductListing_StepDef.enter_new_quantity_and_update()">
+                <span>Then Enter new quantity and update</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefinitions.Liskart_Seller_ProductListing_StepDef.click_on_reset_button()">
+                <span>And Click on reset button</span>
       <div>Step skipped
       </div>
               </div>
@@ -225,12 +245,12 @@ Session ID: fa2300031f47a652f6b6514a7c8c9f86
 <span class="meta">
 <span class='badge log badge-danger'>1</span>
 </span>
-<p class="name">org.openqa.selenium.TimeoutException</p>
+<p class="name">org.openqa.selenium.NoSuchSessionException</p>
 <p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>org.openqa.selenium.TimeoutException</h4>
+<h4>org.openqa.selenium.NoSuchSessionException</h4>
 <span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
@@ -244,11 +264,11 @@ Session ID: fa2300031f47a652f6b6514a7c8c9f86
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>07:49:39 AM</td>
+<td>12:46:32 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='14'>And Click on success</a>
+<a href="#" class="linked" test-id='1' id='8'>Then Enter Product name and submit</a>
 <div class="">
-<span class="badge badge-default">Place An Order.Place An Order.And Click on success</span>
+<span class="badge badge-default">Place An Order.Seller Product Listing.Then Enter Product name and submit</span>
 </div>
 </td>
 </tr>
@@ -277,12 +297,12 @@ Session ID: fa2300031f47a652f6b6514a7c8c9f86
 <span class="meta">
 <span class='badge log badge-danger'>1</span>
 </span>
-<p class="name">@Liskart_B2B_PlaceOrder</p>
+<p class="name">@Liskart_Seller_ProductListing</p>
 <p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>@Liskart_B2B_PlaceOrder</h4>
+<h4>@Liskart_Seller_ProductListing</h4>
 <span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
@@ -296,11 +316,11 @@ Session ID: fa2300031f47a652f6b6514a7c8c9f86
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>07:47:46 AM</td>
+<td>12:45:45 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='2'>Place An Order</a>
+<a href="#" class="linked" test-id='1' id='2'>Seller Product Listing</a>
 <div class="">
-<span class="badge badge-default">Place An Order.Place An Order</span>
+<span class="badge badge-default">Place An Order.Seller Product Listing</span>
 </div>
 </td>
 </tr>
@@ -321,13 +341,13 @@ Session ID: fa2300031f47a652f6b6514a7c8c9f86
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Dec 02, 2025 07:47:44 AM</h3>
+<h3>Dec 02, 2025 12:45:43 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Dec 02, 2025 07:51:40 AM</h3>
+<h3>Dec 02, 2025 12:46:51 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -398,10 +418,10 @@ Session ID: fa2300031f47a652f6b6514a7c8c9f86
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='83%'><b>10</b> steps passed</small></div>
+<div><small data-tooltip='33%'><b>4</b> steps passed</small></div>
 <div>
 <small data-tooltip='8%'><b>1</b> steps failed,
-<b>1</b> skipped, <b data-tooltip='%'>0</b> others
+<b>7</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
 </div>
@@ -417,7 +437,7 @@ Session ID: fa2300031f47a652f6b6514a7c8c9f86
 </div></div>
 <script>
 var timeline = {
-"Place An Order":233.675
+"Place An Order":66.515
 };
 </script>
 <div class="row">
@@ -427,7 +447,7 @@ var timeline = {
 <div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
-<td>@Liskart_B2B_PlaceOrder</td>
+<td>@Liskart_Seller_ProductListing</td>
 <td>0</td>
 <td>1</td>
 <td>0</td>
@@ -480,10 +500,10 @@ warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 10,
+passGrandChild: 4,
 failGrandChild: 1,
 warningGrandChild: 0,
-skipGrandChild: 1,
+skipGrandChild: 7,
 infoGrandChild: 0,
 eventsCount: 5,
 };
